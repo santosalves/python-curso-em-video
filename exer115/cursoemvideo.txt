@@ -1,5 +1,2 @@
-Gustavi;42
-Ana;22
-Pedro;35
-Paulo;95
-Jos√©;55
+Paulo;22
+Tayn·;23

@@ -22,7 +22,9 @@ def menu():
                 ver_cadastro()
                 menu()
             elif opção == 2:
-                cadastrar_pessoas()
+                nome = str(input('Nome: ')).strip()
+                idade = int(input('Idade: '))
+                cadastrar_pessoas('cursoemvideo.txt', nome, idade)
                 menu()
             elif opção == 3:
                 sair()
